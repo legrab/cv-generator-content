@@ -1,0 +1,78 @@
+name: Publish CV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/cv.yml"
+      - ".github/workflows/publish-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out CV content
+        uses: actions/checkout@v4
+
+      - name: Check out CV generator
+        uses: actions/checkout@v4
+        with:
+          repository: legrab/CV-generator
+          ref: main
+          path: cv-generator
+
+      - name: Generate CV HTML
+        uses: ./cv-generator/.github/actions/generate-cv
+        with:
+          input: data/cv.yml
+          out: public
+          lang: en
+          format: html
+
+      - name: Make English CV the Pages index
+        run: |
+          cp public/cv-en.html public/index.html
+
+      - name: Validate generated site
+        run: |
+          if ! grep -qi "<!doctype html" public/index.html; then
+            echo "Generated index.html does not look like a full HTML document."
+            head -80 public/index.html
+            exit 1
+          fi
+
+          echo "Generated files:"
+          find public -maxdepth 2 -type f -print
+
+      - name: Add no-Jekyll marker
+        run: touch public/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

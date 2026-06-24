@@ -1,0 +1,986 @@
+profile:
+  name: Barnabás Gellér
+  headline: Software Engineer | Industrial and Research Software | .NET & TypeScript
+  location: Puch bei Hallein, Salzburg, Austria
+  contact:
+    email: barna.geller@gmail.com
+    linkedin: www.linkedin.com/in/barnageller
+    github: https://github.com/legrab
+
+settings:
+  defaultLanguage: en
+  languages:
+    - en
+    - de
+    - hu
+    - en-detailed
+
+content:
+  en:
+    summary:
+      - With 8 years in tech, including software engineering and computer science education, I focus on building maintainable systems, reliable integrations, and software that teams can estimate, deliver, and support with confidence.
+      - My main technical base is .NET, C#, and application architecture, with practical experience in JavaScript, React, Blazor, WPF, databases, APIs, CI/CD, and production support. I have worked across multiple domains, including industrial automation, ERP, finance, software testing, and biomedical research software.
+      - I bring a structured and pragmatic engineering approach to complex systems, particularly where requirements need clarification, integrations span multiple technologies, or long-term maintainability is important. I also use AI-assisted development tools to support implementation, refactoring, documentation, and engineering workflows.
+
+    sidebar:
+      sections:
+        - title: Core Skills
+          items:
+            - .NET
+            - C#
+            - JavaScript
+            - TypeScript
+            - React
+            - Blazor
+            - WPF
+            - REST APIs
+            - gRPC
+            - SQL
+            - PostgreSQL
+            - MongoDB
+            - SQLite
+            - CI/CD
+            - Docker
+
+        - title: Domains
+          items:
+            - Industrial Automation
+            - SCADA / HMI
+            - ERP
+            - Finance Software
+            - Software Testing
+            - Biomedical Research Software
+
+        - title: Languages
+          items:
+            - "Hungarian: Native or bilingual"
+            - "English: Full professional"
+            - "German: Limited working"
+            - "Swedish: Elementary"
+            - "Spanish: Elementary"
+
+        - title: Certifications
+          items:
+            - "Microsoft Certified: Azure Fundamentals"
+            - "Automation Engineer Level 2"
+            - "Automation Specialist Level 2"
+
+    experience:
+      - company: Advanced Engineering Industrie Automation GmbH
+        title: SCADA Software Developer (Tech Lead)
+        location: Hallein, Salzburg, Austria
+        period: August 2023 - Present
+        intro: Line-control and HMI software for PCB and semiconductor production, where my role combines architecture, implementation, integration work, delivery support, and technical direction.
+        bullets:
+          - Technical owner for Comandra, a configurable SCADA/HMI and line-control platform built to support production-line behavior, customer-specific workflows, and maintainable runtime deployments.
+          - Designed integration structures between HMI screens, backend services, PLCs, device interfaces, databases, scripting, and host systems.
+          - Built and modernized production HMI applications across React, Blazor, and WPF frontend technologies.
+          - Created workflow, driver, localization, and scripting concepts that kept customer-specific behavior configurable instead of hardcoded.
+          - Improved engineering workflows around builds, deployments, documentation, and development feedback loops using Docker, self-hosted agents, proof builds, and LLM-assisted repository work.
+          - Delivered and supported five production-line projects, including modernizations, maintained systems, and a full rewrite of a multi-machine sorting-line application.
+        technologies:
+          - .NET
+          - C#
+          - JavaScript
+          - TypeScript
+          - React
+          - Blazor
+          - WPF
+          - gRPC
+          - REST APIs
+          - SQLite
+          - MongoDB
+          - TwinCAT
+          - OPC UA
+          - SECS/GEM
+          - Docker
+          - CI/CD
+          - Git
+          - GitHub Copilot
+          - LLM-assisted development
+
+      - company: Kyndryl
+        title: Software Developer Team Lead
+        location: Hungary
+        period: August 2022 - July 2023
+        intro: Enterprise software modernization for an internal banking platform, where my role focused on architecture cleanup, frontend/backend separation, delivery quality, and roadmap alignment.
+        bullets:
+          - Worked on the Salkku application transformation, gradually separating a legacy Razor Pages application into a React frontend and .NET API-based backend.
+          - Reworked dependency management by replacing legacy UnityContainer usage with proper dependency injection patterns.
+          - Introduced feature toggles to support step-by-step migration between embedded legacy pages and newly developed React pages.
+          - Improved engineering quality through Azure DevOps pipelines, SonarQube analysis, proof builds, code coverage, unit testing, integration testing, and frontend snapshot testing.
+          - Built and communicated a two-year technical roadmap, planned quarterly milestones, and helped align technical priorities with management expectations.
+        technologies:
+          - .NET
+          - C#
+          - Razor Pages
+          - React
+          - TypeScript
+          - Azure DevOps
+          - SonarQube
+          - xUnit
+          - Cucumber
+          - RabbitMQ
+          - NServiceBus
+          - CI/CD
+          - Feature Toggles
+          - Dependency Injection
+
+      - company: Tricentis
+        title: Software Engineer
+        location: Hungary
+        period: February 2022 - July 2022
+        intro: Low-code software testing platform work, where my role focused on modernization, authentication integration, test coverage, and safe refactoring of enterprise product components.
+        bullets:
+          - Migrated .NET Framework projects and package dependencies toward .NET Core.
+          - Integrated OAuth 2.0 and Azure AD for external API connections.
+          - Increased confidence in change through unit testing, regression testing, and code coverage improvements.
+          - Maintained user-data consistency during refactoring and modernization work.
+        technologies:
+          - .NET Framework
+          - .NET Core
+          - C#
+          - OAuth 2.0
+          - Azure AD
+          - Azure DevOps
+          - Unit Testing
+          - Regression Testing
+          - Code Coverage
+
+      - company: Danubisoft Kft.
+        title: ERP Software Developer
+        location: Pécs, Hungary
+        period: December 2019 - February 2022
+        intro: ERP and warehouse-management software for automotive and industrial customers, where my role combined module development, data modeling, integrations, customer support, and deployment ownership.
+        bullets:
+          - Designed and developed cost forecasting, data collection, and quality-control modules in a long-running ERP platform.
+          - Designed data models and API integrations for forecasting and external invoicing workflows.
+          - Built a full synchronization flow between the ERP platform and the Vectory invoicing system, covering product data, prices, orders, and invoices.
+          - Worked with PostgreSQL schema design, query optimization, production maintenance, customer support, bug fixing, and deployments.
+        technologies:
+          - C++
+          - PostgreSQL
+          - AMQP
+          - Lua
+          - ERP Systems
+          - Warehouse Management
+          - System Integration
+          - Query Optimization
+          - Customer Support
+          - Deployment
+
+      - company: PTE Deák Pécs
+        title: Teacher of Mathematics and Informatics
+        location: Pécs, Hungary
+        period: August 2019 - June 2020
+        intro: Mathematics and computer science teaching role focused on exam preparation, practical IT activities, and helping students build structured problem-solving habits.
+        bullets:
+          - Prepared students for computer science exams, supported mathematics education, and developed extracurricular IT activities.
+        technologies:
+          - Mathematics
+          - Computer Science Education
+          - Exam Preparation
+          - Problem Solving
+          - Teaching
+
+      - company: Arduino
+        title: Educational Content Specialist
+        location: Malmö, Sweden
+        period: October 2018 - May 2019
+        intro: Technical education content for C++, electronics, embedded software, and beginner-friendly IT learning, where my role focused on clarity, curriculum fit, and technical accuracy.
+        bullets:
+          - Revised and developed learning materials for C++, IT, electronics, and embedded software topics.
+        technologies:
+          - C++
+          - Technical Education
+          - Embedded Software Basics
+          - Electronics
+          - Curriculum Alignment
+          - Certification Review
+
+      - company: Tanext Akadémia
+        title: Teacher of Mathematics and Informatics
+        location: Budapest, Hungary
+        period: September 2016 - August 2018
+        intro: Mathematics and informatics teaching role focused on e-learning material development, exam preparation, and beginner-friendly programming education.
+        bullets:
+          - Developed e-learning materials, mathematics curriculum, and introductory programming activities.
+        technologies:
+          - Mathematics
+          - Informatics Education
+          - E-Learning
+          - Curriculum Development
+          - Programming Basics
+          - Problem Solving
+
+    education:
+      - institution: Eötvös Loránd University
+        degree: Master’s Degree, Teacher of Mathematics and Informatics
+        period: 2015 - 2018
+        description: Focused on mathematics and informatics education, with practical work around ICT-supported learning, e-learning design, digital competencies, and gamification.
+        areas:
+          - Mathematics Education
+          - Informatics Education
+          - ICT Tools
+          - E-Learning
+          - Digital Competencies
+          - Gamification
+
+      - institution: Eötvös Loránd University
+        degree: Bachelor’s Degree, Mathematician
+        period: 2011 - 2015
+        description: Focused on mathematics, with advanced studies in combinatorics and geometry, and a 50-credit supplementary field in informatics.
+        areas:
+          - Mathematics
+          - Combinatorics
+          - Geometry
+          - Informatics
+          - Analytical Problem Solving
+
+  de:
+    summary:
+      - Mit 8 Jahren Erfahrung in der IT, darunter Softwareentwicklung und Informatikunterricht, konzentriere ich mich auf die Entwicklung wartbarer Systeme, zuverlässiger Integrationen und von Software, die Teams planbar liefern und langfristig betreiben können.
+      - Mein technischer Schwerpunkt liegt auf .NET, C# und Softwarearchitektur. Darüber hinaus verfüge ich über praktische Erfahrung mit JavaScript, React, Blazor, WPF, Datenbanken, APIs, CI/CD und Production Support. Ich habe in verschiedenen Bereichen gearbeitet, darunter Industrieautomatisierung, ERP-Systeme, Finanzsoftware, Softwaretest sowie Software für die biomedizinische Forschung.
+      - Ich bringe einen strukturierten und pragmatischen Engineering-Ansatz in komplexe Projekte ein, insbesondere wenn Anforderungen geschärft, verschiedene Systeme integriert oder langfristige Wartbarkeit sichergestellt werden müssen. Zusätzlich nutze ich KI-gestützte Entwicklungstools zur Unterstützung von Implementierung, Refactoring, Dokumentation und Engineering-Prozessen.
+
+    sidebar:
+      sections:
+        - title: Kernkompetenzen
+          items:
+            - .NET
+            - C#
+            - JavaScript
+            - TypeScript
+            - React
+            - Blazor
+            - WPF
+            - REST APIs
+            - gRPC
+            - SQL
+            - PostgreSQL
+            - MongoDB
+            - SQLite
+            - CI/CD
+            - Docker
+
+        - title: Domänen
+          items:
+            - Industrieautomatisierung
+            - SCADA / HMI
+            - ERP
+            - Finanzsoftware
+            - Software-Testing
+            - Biomedizinische Forschungssoftware
+
+        - title: Sprachen
+          items:
+            - "Ungarisch: Muttersprache"
+            - "Englisch: Verhandlungssicher"
+            - "Deutsch: Grundlegende Berufspraxis"
+            - "Schwedisch: Grundkenntnisse"
+            - "Spanisch: Grundkenntnisse"
+
+        - title: Zertifikate
+          items:
+            - "Microsoft Certified: Azure Fundamentals"
+            - "Automation Engineer Level 2"
+            - "Automation Specialist Level 2"
+
+    experience:
+      - company: Advanced Engineering Industrie Automation GmbH
+        title: SCADA Software Developer (Tech Lead)
+        location: Hallein, Salzburg, Österreich
+        period: August 2023 - Heute
+        intro: Line-Control- und HMI-Software für PCB- und Halbleiterproduktion, wobei meine Rolle Architektur, Implementierung, Integrationsarbeit, Delivery Support und technische Ausrichtung verbindet.
+        bullets:
+          - Technische Verantwortung für Comandra, eine konfigurierbare SCADA/HMI- und Line-Control-Plattform für Produktionslinienverhalten, kundenspezifische Workflows und wartbare Runtime-Deployments.
+          - Entwurf von Integrationsstrukturen zwischen HMI-Screens, Backend-Services, PLCs, Device Interfaces, Datenbanken, Scripting und Host-Systemen.
+          - Entwicklung und Modernisierung von Production-HMI-Anwendungen mit React, Blazor und WPF Frontend-Technologien.
+          - Entwicklung von Workflow-, Driver-, Lokalisierungs- und Scripting-Konzepten, damit kundenspezifisches Verhalten konfigurierbar bleibt, statt hart codiert zu werden.
+          - Verbesserung von Engineering Workflows rund um Builds, Deployments, Dokumentation und Development Feedback Loops mit Docker, self-hosted Agents, Proof Builds und LLM-gestützter Repository-Arbeit.
+          - Lieferung und Support von fünf Produktionslinien-Projekten, einschließlich Modernisierungen, gewarteter Systeme und eines vollständigen Rewrites einer Multi-Machine-Sorting-Line-Applikation.
+        technologies:
+          - .NET
+          - C#
+          - JavaScript
+          - TypeScript
+          - React
+          - Blazor
+          - WPF
+          - gRPC
+          - REST APIs
+          - SQLite
+          - MongoDB
+          - TwinCAT
+          - OPC UA
+          - SECS/GEM
+          - Docker
+          - CI/CD
+          - Git
+          - GitHub Copilot
+          - LLM-assisted development
+
+      - company: Kyndryl
+        title: Software Developer Team Lead
+        location: Ungarn
+        period: August 2022 - Juli 2023
+        intro: Enterprise-Software-Modernisierung für eine interne Banking-Plattform, wobei meine Rolle auf Architecture Cleanup, Trennung von Frontend und Backend, Delivery Quality und Roadmap Alignment fokussiert war.
+        bullets:
+          - Arbeit an der Salkku Application Transformation, mit schrittweiser Trennung einer Legacy Razor Pages Anwendung in ein React Frontend und ein .NET API Backend.
+          - Überarbeitung des Dependency Managements durch Ersatz von Legacy UnityContainer-Nutzung mit sauberen Dependency Injection Patterns.
+          - Einführung von Feature Toggles, um die Migration zwischen eingebetteten Legacy Pages und neu entwickelten React Pages schrittweise zu ermöglichen.
+          - Verbesserung der Engineering Quality durch Azure DevOps Pipelines, SonarQube Analysis, Proof Builds, Code Coverage, Unit Tests, Integration Tests und Frontend Snapshot Tests.
+          - Aufbau und Kommunikation einer zweijährigen technischen Roadmap, Planung von quartalsweisen Milestones und Abstimmung technischer Prioritäten mit Management-Erwartungen.
+        technologies:
+          - .NET
+          - C#
+          - Razor Pages
+          - React
+          - TypeScript
+          - Azure DevOps
+          - SonarQube
+          - xUnit
+          - Cucumber
+          - RabbitMQ
+          - NServiceBus
+          - CI/CD
+          - Feature Toggles
+          - Dependency Injection
+
+      - company: Tricentis
+        title: Software Engineer
+        location: Ungarn
+        period: Februar 2022 - Juli 2022
+        intro: Arbeit an einer Low-Code Software-Testing-Plattform, wobei meine Rolle auf Modernisierung, Authentication Integration, Test Coverage und sicheres Refactoring von Enterprise-Produktkomponenten fokussiert war.
+        bullets:
+          - Migration von .NET Framework Projekten und Package Dependencies in Richtung .NET Core.
+          - Integration von OAuth 2.0 und Azure AD für externe API-Verbindungen.
+          - Erhöhung der Änderungssicherheit durch Unit Tests, Regression Tests und Code Coverage Verbesserungen.
+          - Sicherstellung der User-Data Consistency während Refactoring- und Modernisierungsarbeiten.
+        technologies:
+          - .NET Framework
+          - .NET Core
+          - C#
+          - OAuth 2.0
+          - Azure AD
+          - Azure DevOps
+          - Unit Testing
+          - Regression Testing
+          - Code Coverage
+
+      - company: Danubisoft Kft.
+        title: ERP Software Developer
+        location: Pécs, Ungarn
+        period: Dezember 2019 - Februar 2022
+        intro: ERP- und Warehouse-Management-Software für Automotive- und Industriekunden, wobei meine Rolle Modulentwicklung, Datenmodellierung, Integrationen, Customer Support und Deployment Ownership kombiniert hat.
+        bullets:
+          - Design und Entwicklung von Cost Forecasting-, Data Collection- und Quality-Control-Modulen in einer langfristig gewachsenen ERP-Plattform.
+          - Design von Datenmodellen und API-Integrationen für Forecasting- und externe Invoicing-Workflows.
+          - Entwicklung eines vollständigen Synchronisationsflows zwischen der ERP-Plattform und dem Vectory-Invoicing-System, einschließlich Produktdaten, Preisen, Bestellungen und Rechnungen.
+          - Arbeit mit PostgreSQL Schema Design, Query Optimization, Production Maintenance, Customer Support, Bug Fixing und Deployments.
+        technologies:
+          - C++
+          - PostgreSQL
+          - AMQP
+          - Lua
+          - ERP Systems
+          - Warehouse Management
+          - System Integration
+          - Query Optimization
+          - Customer Support
+          - Deployment
+
+      - company: PTE Deák Pécs
+        title: Lehrer für Mathematik und Informatik
+        location: Pécs, Ungarn
+        period: August 2019 - Juni 2020
+        intro: Mathematik- und Informatikunterricht mit Fokus auf Prüfungsvorbereitung, praktische IT-Aktivitäten und den Aufbau strukturierter Problemlösungsfähigkeiten.
+        bullets:
+          - Vorbereitung von Schülern auf Informatikprüfungen, Unterstützung im Mathematikunterricht und Entwicklung extracurricularer IT-Aktivitäten.
+        technologies:
+          - Mathematik
+          - Informatikunterricht
+          - Prüfungsvorbereitung
+          - Problemlösung
+          - Teaching
+
+      - company: Arduino
+        title: Educational Content Specialist
+        location: Malmö, Schweden
+        period: Oktober 2018 - Mai 2019
+        intro: Technical Education Content für C++, Elektronik, Embedded Software und einsteigerfreundliches IT-Lernen, wobei meine Rolle auf Klarheit, Curriculum Fit und technische Korrektheit fokussiert war.
+        bullets:
+          - Überarbeitung und Entwicklung von Lernmaterialien für C++, IT, Elektronik und Embedded-Software-Themen.
+        technologies:
+          - C++
+          - Technical Education
+          - Embedded Software Basics
+          - Electronics
+          - Curriculum Alignment
+          - Certification Review
+
+      - company: Tanext Akadémia
+        title: Lehrer für Mathematik und Informatik
+        location: Budapest, Ungarn
+        period: September 2016 - August 2018
+        intro: Mathematik- und Informatikunterricht mit Fokus auf Entwicklung von E-Learning-Materialien, Prüfungsvorbereitung und einsteigerfreundliche Programmierbildung.
+        bullets:
+          - Entwicklung von E-Learning-Materialien, Mathematik-Curriculum und einsteigerfreundlichen Programmieraktivitäten.
+        technologies:
+          - Mathematik
+          - Informatikunterricht
+          - E-Learning
+          - Curriculum Development
+          - Programming Basics
+          - Problemlösung
+
+    education:
+      - institution: Eötvös Loránd University
+        degree: Master’s Degree, Teacher of Mathematics and Informatics
+        period: 2015 - 2018
+        description: Fokus auf Mathematik- und Informatikunterricht, mit praktischer Arbeit rund um ICT-gestütztes Lernen, E-Learning Design, digitale Kompetenzen und Gamification.
+        areas:
+          - Mathematikdidaktik
+          - Informatikdidaktik
+          - ICT Tools
+          - E-Learning
+          - Digitale Kompetenzen
+          - Gamification
+
+      - institution: Eötvös Loránd University
+        degree: Bachelor’s Degree, Mathematician
+        period: 2011 - 2015
+        description: Fokus auf Mathematik, mit vertiefenden Studien in Kombinatorik und Geometrie sowie einem ergänzenden Informatik-Schwerpunkt im Umfang von 50 Credits.
+        areas:
+          - Mathematik
+          - Kombinatorik
+          - Geometrie
+          - Informatik
+          - Analytisches Problemlösen
+
+  hu:
+    summary:
+      - 8 év informatikai tapasztalattal, szoftverfejlesztői és informatikaoktatói háttérrel elsősorban jól karbantartható rendszerek, megbízható integrációk és hosszú távon is fenntartható szoftvermegoldások fejlesztésére összpontosítok.
+      - Fő technológiai területeim a .NET, a C# és az alkalmazásarchitektúra, emellett gyakorlati tapasztalattal rendelkezem JavaScript, React, Blazor, WPF, adatbázisok, API-k, CI/CD folyamatok és éles üzemeltetési támogatás terén. Több iparágban dolgoztam, többek között ipari automatizálás, ERP rendszerek, pénzügyi szoftverek, szoftvertesztelés és biomedikai kutatási szoftverek területén.
+      - A strukturált, gyakorlatias mérnöki szemléletet tartom fontosnak, különösen összetett rendszerek, több technológiát érintő integrációk és hosszú távú karbantarthatósági szempontok esetén. A fejlesztési munkámat AI-alapú eszközökkel is támogatóm implementáció, refaktorálás, dokumentációkészítés és egyéb mérnöki feladatok során.
+
+    sidebar:
+      sections:
+        - title: Fő készségek
+          items:
+            - .NET
+            - C#
+            - JavaScript
+            - TypeScript
+            - React
+            - Blazor
+            - WPF
+            - REST APIs
+            - gRPC
+            - SQL
+            - PostgreSQL
+            - MongoDB
+            - SQLite
+            - CI/CD
+            - Docker
+
+        - title: Domainek
+          items:
+            - Ipari automatizálás
+            - SCADA / HMI
+            - ERP
+            - Pénzügyi szoftverek
+            - Software testing
+            - Biomedikai kutatási szoftverek
+
+        - title: Nyelvek
+          items:
+            - "Magyar: Anyanyelvi"
+            - "Angol: Tárgyalóképes"
+            - "Német: Korlátozott szakmai"
+            - "Svéd: Alapszint"
+            - "Spanyol: Alapszint"
+
+        - title: Tanúsítványok
+          items:
+            - "Microsoft Certified: Azure Fundamentals"
+            - "Automation Engineer Level 2"
+            - "Automation Specialist Level 2"
+
+    experience:
+      - company: Advanced Engineering Industrie Automation GmbH
+        title: SCADA Software Developer (Tech Lead)
+        location: Hallein, Salzburg, Ausztria
+        period: 2023. augusztus - jelenleg
+        intro: Line-control és HMI software PCB- és félvezetőgyártáshoz, ahol a szerepem architektúrát, implementációt, integrációs munkát, delivery supportot és technikai irányítást köt össze.
+        bullets:
+          - Technikai felelős Comandra kapcsán, amely egy konfigurálható SCADA/HMI és line-control platform gyártósori működéshez, customer-specific workflow-khoz és karbantartható runtime deploymentekhez.
+          - Integrációs struktúrák tervezése HMI screenek, backend service-ek, PLC-k, device interface-ek, adatbázisok, scripting és host rendszerek között.
+          - Production HMI alkalmazások fejlesztése és modernizációja React, Blazor és WPF frontend technológiákkal.
+          - Workflow, driver, localization és scripting koncepciók kialakítása, hogy a customer-specific működés konfigurálható maradjon hardcoding helyett.
+          - Engineering workflow-k javítása buildek, deploymentek, dokumentáció és development feedback loopok körül Dockerrel, self-hosted agentekkel, proof buildekkel és LLM-assisted repository munkával.
+          - Öt production-line projekt leszállítása és támogatása, modernizációkkal, karbantartott rendszerekkel és egy multi-machine sorting-line alkalmazás teljes rewrite-jával.
+        technologies:
+          - .NET
+          - C#
+          - JavaScript
+          - TypeScript
+          - React
+          - Blazor
+          - WPF
+          - gRPC
+          - REST APIs
+          - SQLite
+          - MongoDB
+          - TwinCAT
+          - OPC UA
+          - SECS/GEM
+          - Docker
+          - CI/CD
+          - Git
+          - GitHub Copilot
+          - LLM-assisted development
+
+      - company: Kyndryl
+        title: Software Developer Team Lead
+        location: Magyarország
+        period: 2022. augusztus - 2023. július
+        intro: Enterprise software modernizáció egy belső banking platformon, ahol a szerepem architecture cleanupra, frontend/backend szétválasztásra, delivery qualityre és roadmap alignmentre fókuszált.
+        bullets:
+          - Munka a Salkku Application Transformation projekten, egy legacy Razor Pages alkalmazás fokozatos szétválasztásával React frontendre és .NET API backend struktúrára.
+          - Dependency management átdolgozása legacy UnityContainer használatról tisztább Dependency Injection patternökre.
+          - Feature toggle-ök bevezetése, hogy az embedded legacy page-ek és az új React page-ek közötti migráció lépésenként történhessen.
+          - Engineering quality javítása Azure DevOps pipeline-okkal, SonarQube analysis-szel, proof buildekkel, code coverage-dzsel, unit tesztekkel, integration tesztekkel és frontend snapshot tesztekkel.
+          - Kétéves technikai roadmap kialakítása és kommunikálása, quarterly milestone-ok tervezése, valamint technikai prioritások összehangolása management elvárásokkal.
+        technologies:
+          - .NET
+          - C#
+          - Razor Pages
+          - React
+          - TypeScript
+          - Azure DevOps
+          - SonarQube
+          - xUnit
+          - Cucumber
+          - RabbitMQ
+          - NServiceBus
+          - CI/CD
+          - Feature Toggles
+          - Dependency Injection
+
+      - company: Tricentis
+        title: Software Engineer
+        location: Magyarország
+        period: 2022. február - 2022. július
+        intro: Munka egy low-code software testing platformon, ahol a szerepem modernizációra, authentication integrationre, test coverage-re és enterprise product komponensek biztonságos refaktorálására fókuszált.
+        bullets:
+          - .NET Framework projektek és package dependency-k migrálása .NET Core irányba.
+          - OAuth 2.0 és Azure AD integráció külső API kapcsolatokhoz.
+          - Változtatásokba vetett bizalom növelése unit tesztekkel, regression tesztekkel és code coverage javításokkal.
+          - User-data consistency fenntartása refactoring és modernizációs munkák során.
+        technologies:
+          - .NET Framework
+          - .NET Core
+          - C#
+          - OAuth 2.0
+          - Azure AD
+          - Azure DevOps
+          - Unit Testing
+          - Regression Testing
+          - Code Coverage
+
+      - company: Danubisoft Kft.
+        title: ERP Software Developer
+        location: Pécs, Magyarország
+        period: 2019. december - 2022. február
+        intro: ERP és warehouse-management software automotive és ipari ügyfeleknek, ahol a szerepem modulfejlesztést, adatmodellezést, integrációkat, customer supportot és deployment ownershipöt kombinált.
+        bullets:
+          - Cost forecasting, data collection és quality-control modulok tervezése és fejlesztése egy régóta működő ERP platformban.
+          - Adatmodellek és API integrációk tervezése forecasting és külső invoicing workflow-khoz.
+          - Teljes szinkronizációs flow kialakítása az ERP platform és a Vectory invoicing rendszer között, product data, price, order és invoice adatokkal.
+          - Munka PostgreSQL schema design, query optimization, production maintenance, customer support, bug fixing és deployment területeken.
+        technologies:
+          - C++
+          - PostgreSQL
+          - AMQP
+          - Lua
+          - ERP Systems
+          - Warehouse Management
+          - System Integration
+          - Query Optimization
+          - Customer Support
+          - Deployment
+
+      - company: PTE Deák Pécs
+        title: Matematika- és informatikatanár
+        location: Pécs, Magyarország
+        period: 2019. augusztus - 2020. június
+        intro: Matematika- és informatikaoktatás, fókuszban érettségi felkészítéssel, gyakorlati IT-tevékenységekkel és strukturált problémamegoldási szemlélet fejlesztésével.
+        bullets:
+          - Diákok felkészítése informatika érettségire, matematika tanulás támogatása és tanórán kívüli IT-tevékenységek fejlesztése.
+        technologies:
+          - Matematika
+          - Informatikaoktatás
+          - Érettségi felkészítés
+          - Problémamegoldás
+          - Tanítás
+
+      - company: Arduino
+        title: Educational Content Specialist
+        location: Malmö, Svédország
+        period: 2018. október - 2019. május
+        intro: Technical education content C++, elektronika, embedded software és kezdőbarát IT learning témákhoz, ahol a szerepem a tisztaságra, curriculum fitre és technikai pontosságra fókuszált.
+        bullets:
+          - Tananyagok átdolgozása és fejlesztése C++, IT, elektronika és embedded software témákban.
+        technologies:
+          - C++
+          - Technical Education
+          - Embedded Software Basics
+          - Electronics
+          - Curriculum Alignment
+          - Certification Review
+
+      - company: Tanext Akadémia
+        title: Matematika- és informatikatanár
+        location: Budapest, Magyarország
+        period: 2016. szeptember - 2018. augusztus
+        intro: Matematika- és informatikaoktatás, fókuszban e-learning tananyagfejlesztéssel, érettségi felkészítéssel és kezdőbarát programozásoktatással.
+        bullets:
+          - E-learning tananyagok, matematika curriculum és kezdőbarát programozási tevékenységek fejlesztése.
+        technologies:
+          - Matematika
+          - Informatikaoktatás
+          - E-Learning
+          - Curriculum Development
+          - Programming Basics
+          - Problémamegoldás
+
+    education:
+      - institution: Eötvös Loránd University
+        degree: Master’s Degree, Teacher of Mathematics and Informatics
+        period: 2015 - 2018
+        description: Fókuszban a matematika- és informatikaoktatás, gyakorlati munkával ICT-alapú tanulás, e-learning design, digitális kompetenciák és gamification területén.
+        areas:
+          - Matematikaoktatás
+          - Informatikaoktatás
+          - ICT Tools
+          - E-Learning
+          - Digitális kompetenciák
+          - Gamification
+
+      - institution: Eötvös Loránd University
+        degree: Bachelor’s Degree, Mathematician
+        period: 2011 - 2015
+        description: Fókuszban a matematika, haladó kombinatorikai és geometriai tanulmányokkal, valamint egy 50 kredites informatikai kiegészítő szakiránnyal.
+        areas:
+          - Matematika
+          - Kombinatorika
+          - Geometria
+          - Informatika
+          - Analitikus problémamegoldás
+
+  en-detailed:
+    summary:
+      - With 8 years in tech, including software engineering and computer science education, I focus on building maintainable systems, reliable integrations, and software that teams can estimate, deliver, and support with confidence.
+      - My main technical base is .NET, C#, and application architecture, with practical work in JavaScript, React, Blazor, WPF, databases, APIs, CI/CD, and production support.
+      - I have worked across a growing range of domains, from industrial automation and ERP to finance, software testing, and biomedical research software.
+      - I use LLM tooling as part of my engineering workflow for implementation, code analysis, refactoring, documentation, planning, and faster feedback loops. I am open-minded about AI-assisted and agentic development where it improves speed and quality, while staying careful about architecture, review, maintainability, and engineering ownership.
+
+    sidebar:
+      sections:
+        - title: Core Skills
+          items:
+            - .NET
+            - C#
+            - JavaScript
+            - TypeScript
+            - React
+            - Blazor
+            - WPF
+            - REST APIs
+            - gRPC
+            - SQL
+            - PostgreSQL
+            - MongoDB
+            - SQLite
+            - CI/CD
+            - Docker
+            - Azure DevOps
+            - SonarQube
+            - Git
+            - LLM-assisted development
+
+        - title: Domains
+          items:
+            - Industrial Automation
+            - SCADA / HMI
+            - ERP
+            - Finance Software
+            - Software Testing
+            - Biomedical Research Software
+
+        - title: Languages
+          items:
+            - "Hungarian: Native or bilingual"
+            - "English: Full professional"
+            - "German: Limited working"
+            - "Swedish: Elementary"
+            - "Spanish: Elementary"
+
+        - title: Certifications
+          items:
+            - "Microsoft Certified: Azure Fundamentals"
+            - "Automation Engineer Level 2"
+            - "Automation Specialist Level 2"
+
+    experience:
+      - company: Advanced Engineering Industrie Automation GmbH
+        title: SCADA Software Developer (Tech Lead)
+        location: Hallein, Salzburg, Austria
+        period: August 2023 - Present
+        intro: Line-control and HMI software for PCB and semiconductor production, where my role combines architecture, implementation, integration work, delivery support, and technical direction.
+        bullets:
+          - Technical owner for Comandra, a configurable SCADA/HMI and line-control platform built to support production-line behavior, customer-specific workflows, and maintainable runtime deployments.
+          - Designed integration structures between HMI screens, backend services, PLCs, device interfaces, databases, scripting, and host systems.
+          - Built and modernized production HMI applications across React, Blazor, and WPF frontend technologies.
+          - Created workflow, driver, localization, and scripting concepts that kept customer-specific behavior configurable instead of hardcoded.
+          - Improved engineering workflows around builds, deployments, documentation, and development feedback loops using Docker, self-hosted agents, proof builds, and LLM-assisted repository work.
+          - Delivered and supported five production-line projects, including modernizations, maintained systems, and a full rewrite of a multi-machine sorting-line application.
+          - Guided contributors in a small software team while working closely with PLC developers, customers, and engineering stakeholders.
+        technologies:
+          - .NET
+          - C#
+          - JavaScript
+          - TypeScript
+          - React
+          - Blazor
+          - WPF
+          - gRPC
+          - REST APIs
+          - SQLite
+          - MongoDB
+          - TwinCAT
+          - OPC UA
+          - SECS/GEM
+          - Docker
+          - CI/CD
+          - Git
+          - GitHub Copilot
+          - LLM-assisted development
+
+      - company: Kyndryl
+        title: Software Developer Team Lead
+        location: Hungary
+        period: August 2022 - July 2023
+        intro: Enterprise software modernization for an internal banking platform, where my role focused on architecture cleanup, frontend/backend separation, delivery quality, and roadmap alignment.
+        bullets:
+          - Worked on the Salkku application transformation, gradually separating a legacy Razor Pages application into a React frontend and .NET API-based backend.
+          - Reworked dependency management by replacing legacy UnityContainer usage with proper dependency injection patterns.
+          - Introduced feature toggles to support step-by-step migration between embedded legacy pages and newly developed React pages.
+          - Improved engineering quality through Azure DevOps pipelines, SonarQube analysis, proof builds, code coverage, unit testing, integration testing, and frontend snapshot testing.
+          - Worked with Cucumber-based BDD practices, xUnit testing, existing DDD concepts, and messaging components involving NServiceBus and RabbitMQ.
+          - Built and communicated a two-year technical roadmap, planned quarterly milestones, and helped align technical priorities with management expectations.
+          - Supported coordination across the legacy and modernization teams through documentation, knowledge-sharing sessions, workshops, and responsibility clarification.
+        technologies:
+          - .NET
+          - C#
+          - Razor Pages
+          - React
+          - TypeScript
+          - Azure DevOps
+          - SonarQube
+          - xUnit
+          - Cucumber
+          - BDD
+          - RabbitMQ
+          - NServiceBus
+          - CI/CD
+          - Feature Toggles
+          - Dependency Injection
+
+      - company: Tricentis
+        title: Software Engineer
+        location: Hungary
+        period: February 2022 - July 2022
+        intro: Low-code software testing platform work, where my role focused on modernization, authentication integration, test coverage, and safe refactoring of enterprise product components.
+        bullets:
+          - Migrated .NET Framework projects and package dependencies toward .NET Core.
+          - Integrated OAuth 2.0 and Azure AD for external API connections.
+          - Increased confidence in change through unit testing, regression testing, and code coverage improvements.
+          - Maintained user-data consistency during refactoring and modernization work.
+          - Worked in an environment where product stability, testability, and controlled change were central engineering concerns.
+        technologies:
+          - .NET Framework
+          - .NET Core
+          - C#
+          - OAuth 2.0
+          - Azure AD
+          - Azure DevOps
+          - Unit Testing
+          - Regression Testing
+          - Code Coverage
+          - Jira
+          - Confluence
+
+      - company: Danubisoft Kft.
+        title: ERP Software Developer
+        location: Pécs, Hungary
+        period: December 2019 - February 2022
+        intro: ERP and warehouse-management software for automotive and industrial customers, where my role combined module development, data modeling, integrations, customer support, and deployment ownership.
+        bullets:
+          - Designed and developed cost forecasting, data collection, and quality-control modules in a long-running ERP platform.
+          - Designed data models and API integrations for forecasting and external invoicing workflows.
+          - Built a full synchronization flow between the ERP platform and the Vectory invoicing system, covering product data, prices, orders, and invoices.
+          - Worked with PostgreSQL schema design, query optimization, production maintenance, customer support, bug fixing, and deployments.
+          - Developed customer-specific customization mechanisms using Lua-based script injection.
+          - Worked with AMQP-based communication and template-driven document generation.
+        technologies:
+          - C++
+          - PostgreSQL
+          - AMQP
+          - Lua
+          - ERP Systems
+          - Warehouse Management
+          - System Integration
+          - Query Optimization
+          - Customer Support
+          - Deployment
+
+      - company: PTE Deák Pécs
+        title: Teacher of Mathematics and Informatics
+        location: Pécs, Hungary
+        period: August 2019 - June 2020
+        intro: Mathematics and computer science teaching role focused on exam preparation, practical IT activities, and helping students build structured problem-solving habits.
+        bullets:
+          - Prepared students for computer science exams, supported mathematics education, and developed extracurricular IT activities.
+        technologies:
+          - Mathematics
+          - Computer Science Education
+          - Exam Preparation
+          - Problem Solving
+          - Teaching
+
+      - company: Arduino
+        title: Educational Content Specialist
+        location: Malmö, Sweden
+        period: October 2018 - May 2019
+        intro: Technical education content for C++, electronics, embedded software, and beginner-friendly IT learning, where my role focused on clarity, curriculum fit, and technical accuracy.
+        bullets:
+          - Revised and developed learning materials for C++, IT, electronics, and embedded software topics.
+          - Aligned educational content with different curricula and learner levels.
+          - Reviewed certification questions and learning materials for clarity, correctness, and practical relevance.
+        technologies:
+          - C++
+          - Technical Education
+          - Embedded Software Basics
+          - Electronics
+          - Curriculum Alignment
+          - Certification Review
+          - Learning Material Development
+
+      - company: Tanext Akadémia
+        title: Teacher of Mathematics and Informatics
+        location: Budapest, Hungary
+        period: September 2016 - August 2018
+        intro: Mathematics and informatics teaching role focused on e-learning material development, exam preparation, and beginner-friendly programming education.
+        bullets:
+          - Developed e-learning materials and specialized mathematics curriculum.
+          - Prepared students for mathematics exams and supported structured problem-solving skills.
+          - Introduced programming concepts through Scratch, CodeCombat, and custom learning tools.
+        technologies:
+          - Mathematics
+          - Informatics Education
+          - E-Learning
+          - Curriculum Development
+          - Programming Basics
+          - Problem Solving
+
+    projects:
+      - name: "Comandra: Unified HMI and Line Controller Platform"
+        period: April 2024 - Present
+        associatedWith: Advanced Engineering Industrie Automation GmbH
+        intro: Configurable SCADA/HMI and line-control platform for PCB and semiconductor production, focused on unifying runtime behavior, operator interfaces, integrations, and deployment workflows.
+        bullets:
+          - Re-architected separated HMI and line-controller concepts into a cohesive platform with a unified runtime and deployment model.
+          - Designed configurable workflow and scripting concepts to support line-specific behavior without hardcoding each customer setup.
+          - Built integration structures across HMI screens, backend services, PLC communication, device interfaces, databases, and host systems.
+          - Delivered the platform from architecture and implementation to rollout, deployment support, and operational hardening.
+        technologies:
+          - .NET
+          - C#
+          - Blazor
+          - JavaScript
+          - SQLite
+          - TwinCAT
+          - SECS/GEM
+          - Docker
+
+      - name: "Kamra: Household Product Management System"
+        period: October 2022 - Present
+        intro: Open-source household stock management project for tracking pantry items, expiry dates, desired stock levels, and shopping needs, built as a practical AI-assisted development experiment.
+        bullets:
+          - Designed the system around product tracking, stock levels, expiry awareness, and automatic shopping-list generation.
+          - Built product-data collection and shop-crawling concepts to support future enrichment, comparison, and automation features.
+          - Used the project as a playground for AI-assisted implementation, repository-driven documentation, and GitHub workflow automation.
+          - Deployed the application through a modern TypeScript-based stack with automated development and delivery workflows.
+        technologies:
+          - Angular
+          - TypeScript
+          - Node.js
+          - GitHub Actions
+          - Vercel
+          - Web Crawling
+          - AI-assisted development
+
+      - name: "Salkku: Banking Application Transformation"
+        period: September 2022 - July 2023
+        associatedWith: Kyndryl
+        intro: Modernization project for Salkku, a business-critical banking application at Samlink, focused on gradually separating legacy UI and backend responsibilities while preserving existing business logic and operational stability.
+        bullets:
+          - Built and communicated a technical roadmap with quarterly milestones, priorities, and modernization steps.
+          - Helped split a legacy Razor Pages / MVC-style application into a React frontend and .NET API backend.
+          - Supported business logic preservation, authentication continuity, and controlled migration through feature toggles.
+          - Improved development quality through documentation, code and environment change tracking, testing practices, and pipeline-based quality checks.
+          - Coordinated a developer team of four through responsibility clarification, knowledge-sharing sessions, weekly discussions, and technical workshops.
+        technologies:
+          - .NET
+          - C#
+          - Razor Pages
+          - React
+          - TypeScript
+          - Azure DevOps
+          - SonarQube
+          - xUnit
+          - Cucumber
+          - RabbitMQ
+          - NServiceBus
+          - Feature Toggles
+
+    education:
+      - institution: Eötvös Loránd University
+        degree: Master’s Degree, Teacher of Mathematics and Informatics
+        period: 2015 - 2018
+        description: Focused on mathematics and informatics education, with practical work around ICT-supported learning, e-learning design, digital competencies, and gamification.
+        areas:
+          - Mathematics Education
+          - Informatics Education
+          - ICT Tools
+          - E-Learning
+          - Digital Competencies
+          - Gamification
+
+      - institution: Eötvös Loránd University
+        degree: Bachelor’s Degree, Mathematician
+        period: 2011 - 2015
+        description: Focused on mathematics, with advanced studies in combinatorics and geometry, and a 50-credit supplementary field in informatics.
+        areas:
+          - Mathematics
+          - Combinatorics
+          - Geometry
+          - Informatics
+          - Analytical Problem Solving
+
+    publications:
+      - International Informatic Challenge in Hungary
+      - Informatikai kompetenciák fejlesztése modern eszközökkel
+      - A háromszögközéppontok baricentrikus koordinátái
