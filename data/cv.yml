@@ -1,6 +1,6 @@
 profile:
   name: Barnabás Gellér
-  headline: Software Engineer | Industrial and Research Software | .NET & TypeScript
+  headline: Software Engineer | Industrial & Research Software | Architecture & Integration
   location: Puch bei Hallein, Salzburg, Austria
   contact:
     email: barna.geller@gmail.com
@@ -18,9 +18,9 @@ settings:
 content:
   en:
     summary:
-      - With 8 years in tech, including software engineering and computer science education, I focus on building maintainable systems, reliable integrations, and software that teams can estimate, deliver, and support with confidence.
-      - My main technical base is .NET, C#, and application architecture, with practical experience in JavaScript, React, Blazor, WPF, databases, APIs, CI/CD, and production support. I have worked across multiple domains, including industrial automation, ERP, finance, software testing, and biomedical research software.
-      - I bring a structured and pragmatic engineering approach to complex systems, particularly where requirements need clarification, integrations span multiple technologies, or long-term maintainability is important. I also use AI-assisted development tools to support implementation, refactoring, documentation, and engineering workflows.
+      - With 8 years in technology, spanning software engineering and computer science education, I work where system design and implementation meet; turning unclear requirements, legacy constraints, and cross-system integrations into maintainable software that teams can understand, deliver, and support with confidence.
+      - My technical foundation is .NET, C#, and application architecture, with practical experience across JavaScript, React, Blazor, WPF, databases, APIs, CI/CD, production support, and industrial interfaces. I have worked in domains including industrial automation, ERP, finance, software testing, and biomedical research software.
+      - I combine systems thinking with pragmatic creativity, clarifying actors, constraints, lifecycles, data flows, and operational realities before choosing abstractions. I favor explicit boundaries, configurable behavior, and reversible change, and use AI-assisted tools to support implementation, refactoring, documentation, and engineering workflows.
 
     sidebar:
       sections:
@@ -239,9 +239,9 @@ content:
 
   de:
     summary:
-      - Mit 8 Jahren Erfahrung in der IT, darunter Softwareentwicklung und Informatikunterricht, konzentriere ich mich auf die Entwicklung wartbarer Systeme, zuverlässiger Integrationen und von Software, die Teams planbar liefern und langfristig betreiben können.
-      - Mein technischer Schwerpunkt liegt auf .NET, C# und Softwarearchitektur. Darüber hinaus verfüge ich über praktische Erfahrung mit JavaScript, React, Blazor, WPF, Datenbanken, APIs, CI/CD und Production Support. Ich habe in verschiedenen Bereichen gearbeitet, darunter Industrieautomatisierung, ERP-Systeme, Finanzsoftware, Softwaretest sowie Software für die biomedizinische Forschung.
-      - Ich bringe einen strukturierten und pragmatischen Engineering-Ansatz in komplexe Projekte ein, insbesondere wenn Anforderungen geschärft, verschiedene Systeme integriert oder langfristige Wartbarkeit sichergestellt werden müssen. Zusätzlich nutze ich KI-gestützte Entwicklungstools zur Unterstützung von Implementierung, Refactoring, Dokumentation und Engineering-Prozessen.
+      - Mit 8 Jahren Erfahrung in der IT, von Softwareentwicklung bis Informatikunterricht, arbeite ich an der Schnittstelle von Systementwurf und Umsetzung. Aus unklaren Anforderungen, gewachsenen Rahmenbedingungen und systemübergreifenden Integrationen entstehen wartbare Lösungen, die Teams verstehen, planbar liefern und verlässlich betreiben können.
+      - Mein technisches Fundament bilden .NET, C# und Softwarearchitektur, ergänzt durch praktische Erfahrung mit JavaScript, React, Blazor, WPF, Datenbanken, APIs, CI/CD, Produktionssupport und industriellen Schnittstellen. Ich habe unter anderem in der Industrieautomatisierung, in ERP- und Finanzsystemen, im Softwaretest sowie an Software für die biomedizinische Forschung gearbeitet.
+      - Ich verbinde systemisches Denken mit pragmatischer Kreativität und kläre Akteure, Rahmenbedingungen, Lebenszyklen, Datenflüsse und die betriebliche Realität, bevor ich Abstraktionen wähle. Dabei bevorzuge ich klare Grenzen, konfigurierbares Verhalten und reversible Veränderungen und nutze KI-gestützte Werkzeuge für Implementierung, Refactoring, Dokumentation und Engineering-Prozesse.
 
     sidebar:
       sections:
@@ -460,9 +460,9 @@ content:
 
   hu:
     summary:
-      - 8 év informatikai tapasztalattal, szoftverfejlesztői és informatikaoktatói háttérrel elsősorban jól karbantartható rendszerek, megbízható integrációk és hosszú távon is fenntartható szoftvermegoldások fejlesztésére összpontosítok.
-      - Fő technológiai területeim a .NET, a C# és az alkalmazásarchitektúra, emellett gyakorlati tapasztalattal rendelkezem JavaScript, React, Blazor, WPF, adatbázisok, API-k, CI/CD folyamatok és éles üzemeltetési támogatás terén. Több iparágban dolgoztam, többek között ipari automatizálás, ERP rendszerek, pénzügyi szoftverek, szoftvertesztelés és biomedikai kutatási szoftverek területén.
-      - A strukturált, gyakorlatias mérnöki szemléletet tartom fontosnak, különösen összetett rendszerek, több technológiát érintő integrációk és hosszú távú karbantarthatósági szempontok esetén. A fejlesztési munkámat AI-alapú eszközökkel is támogatóm implementáció, refaktorálás, dokumentációkészítés és egyéb mérnöki feladatok során.
+      - 8 év informatikai tapasztalattal, szoftvermérnöki és informatikaoktatói háttérrel a rendszertervezés és a megvalósítás találkozásánál dolgozom. A bizonytalan követelményeket, az örökölt korlátokat és a rendszerek közötti integrációkat olyan karbantartható szoftverré formálom, amelyet a csapatok megértenek, kiszámíthatóan szállítanak és megbízhatóan támogatnak.
+      - Technikai alapjaim a .NET, a C# és az alkalmazásarchitektúra, emellett gyakorlati tapasztalattal rendelkezem JavaScript, React, Blazor, WPF, adatbázisok, API-k, CI/CD folyamatok, éles üzemeltetési támogatás és ipari interfészek terén. Többek között ipari automatizálási, ERP-, pénzügyi, szoftvertesztelési és biomedikai kutatási rendszereken dolgoztam.
+      - A rendszerszintű gondolkodást gyakorlatias kreativitással kapcsolom össze. Az absztrakciók megválasztása előtt tisztázom a szereplőket, a korlátokat, az életciklust, az adatáramlásokat és a működési környezetet. Az egyértelmű határokat, a konfigurálható működést és a visszafordítható változtatásokat részesítem előnyben, munkámat pedig AI-alapú eszközökkel támogatom az implementáció, refaktorálás, dokumentáció és más mérnöki feladatok során.
 
     sidebar:
       sections:
@@ -681,10 +681,10 @@ content:
 
   en-detailed:
     summary:
-      - With 8 years in tech, including software engineering and computer science education, I focus on building maintainable systems, reliable integrations, and software that teams can estimate, deliver, and support with confidence.
-      - My main technical base is .NET, C#, and application architecture, with practical work in JavaScript, React, Blazor, WPF, databases, APIs, CI/CD, and production support.
-      - I have worked across a growing range of domains, from industrial automation and ERP to finance, software testing, and biomedical research software.
-      - I use LLM tooling as part of my engineering workflow for implementation, code analysis, refactoring, documentation, planning, and faster feedback loops. I am open-minded about AI-assisted and agentic development where it improves speed and quality, while staying careful about architecture, review, maintainability, and engineering ownership.
+      - With 8 years in technology, spanning software engineering and computer science education, I work where system design and implementation meet; turning unclear requirements, legacy constraints, and cross-system integrations into maintainable software that teams can understand, deliver, and support with confidence.
+      - My technical foundation is .NET, C#, and application architecture, with practical work across JavaScript, React, Blazor, WPF, databases, APIs, CI/CD, production support, and industrial interfaces.
+      - Across industrial automation, ERP, finance, software testing, and biomedical research software, I combine systems thinking with pragmatic creativity. I clarify actors, constraints, lifecycles, data flows, failure modes, and operational realities before choosing abstractions, and favor explicit boundaries, configurable behavior, and reversible change.
+      - I use LLM tooling for implementation, code analysis, refactoring, documentation, planning, and faster feedback loops. I am open-minded about AI-assisted and agentic development where it improves speed and quality, while remaining deliberate about architecture, review, maintainability, and engineering ownership.
 
     sidebar:
       sections:
