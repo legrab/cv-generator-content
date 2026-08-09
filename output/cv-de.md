@@ -58,11 +58,22 @@ Ich verbinde systemisches Denken mit pragmatischer Kreativität und kläre Akteu
 
 ## Experience
 
+### Molecular Devices
+
+**Software Engineer**
+
+August 2026 - Heute | Puch bei Hallein, Salzburg, Austria
+
+Wissenschaftliche Datenanalyse und Laborsoftware, wobei meine Rolle Entwicklung mit analytischen Workflows, Algorithmusoptimierung und technischer Verantwortung verbindet.
+
+Core technologies:
+.NET | C# | TypeScript | WPF | MsSQL
+
 ### Advanced Engineering Industrie Automation GmbH
 
 **SCADA Software Developer (Tech Lead)**
 
-August 2023 - Heute | Hallein, Salzburg, Österreich
+August 2023 - Juli 2026 | Hallein, Salzburg, Österreich
 
 Line-Control- und HMI-Software für PCB- und Halbleiterproduktion, wobei meine Rolle Architektur, Implementierung, Integrationsarbeit, Delivery Support und technische Ausrichtung verbindet.
 

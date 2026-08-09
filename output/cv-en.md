@@ -58,11 +58,22 @@ I combine systems thinking with pragmatic creativity, clarifying actors, constra
 
 ## Experience
 
+### Molecular Devices
+
+**Software Engineer**
+
+August 2026 - Present | Puch bei Hallein, Salzburg, Austria
+
+Scientific data analysis and laboratory software, where my role combines development with analytical workflows, algorithmic optimization, and technical direction.
+
+Core technologies:
+.NET | C# | TypeScript | WPF | MsSQL
+
 ### Advanced Engineering Industrie Automation GmbH
 
 **SCADA Software Developer (Tech Lead)**
 
-August 2023 - Present | Hallein, Salzburg, Austria
+August 2023 - July 2026 | Hallein, Salzburg, Austria
 
 Line-control and HMI software for PCB and semiconductor production, where my role combines architecture, implementation, integration work, delivery support, and technical direction.
 

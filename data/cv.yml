@@ -66,10 +66,22 @@ content:
             - "Automation Specialist Level 2"
 
     experience:
+      - company: Molecular Devices
+        title: Software Engineer
+        location: Puch bei Hallein, Salzburg, Austria
+        period: August 2026 - Present
+        intro: Scientific data analysis and laboratory software, where my role combines development with analytical workflows, algorithmic optimization, and technical direction.
+        technologies:
+          - .NET
+          - C#
+          - TypeScript
+          - WPF
+          - MsSQL
+
       - company: Advanced Engineering Industrie Automation GmbH
         title: SCADA Software Developer (Tech Lead)
         location: Hallein, Salzburg, Austria
-        period: August 2023 - Present
+        period: August 2023 - July 2026
         intro: Line-control and HMI software for PCB and semiconductor production, where my role combines architecture, implementation, integration work, delivery support, and technical direction.
         bullets:
           - Technical owner for Comandra, a configurable SCADA/HMI and line-control platform built to support production-line behavior, customer-specific workflows, and maintainable runtime deployments.
@@ -287,10 +299,22 @@ content:
             - "Automation Specialist Level 2"
 
     experience:
+      - company: Molecular Devices
+        title: Software Engineer
+        location: Puch bei Hallein, Salzburg, Austria
+        period: August 2026 - Heute
+        intro: Wissenschaftliche Datenanalyse und Laborsoftware, wobei meine Rolle Entwicklung mit analytischen Workflows, Algorithmusoptimierung und technischer Verantwortung verbindet.
+        technologies:
+          - .NET
+          - C#
+          - TypeScript
+          - WPF
+          - MsSQL
+
       - company: Advanced Engineering Industrie Automation GmbH
         title: SCADA Software Developer (Tech Lead)
         location: Hallein, Salzburg, Österreich
-        period: August 2023 - Heute
+        period: August 2023 - Juli 2026
         intro: Line-Control- und HMI-Software für PCB- und Halbleiterproduktion, wobei meine Rolle Architektur, Implementierung, Integrationsarbeit, Delivery Support und technische Ausrichtung verbindet.
         bullets:
           - Technische Verantwortung für Comandra, eine konfigurierbare SCADA/HMI- und Line-Control-Plattform für Produktionslinienverhalten, kundenspezifische Workflows und wartbare Runtime-Deployments.
@@ -508,10 +532,22 @@ content:
             - "Automation Specialist Level 2"
 
     experience:
+      - company: Molecular Devices
+        title: Software Engineer
+        location: Puch bei Hallein, Salzburg, Austria
+        period: 2026. augusztus - jelenleg
+        intro: Tudományos adatelemző és laboratóriumi szoftverek, ahol a szerepem a fejlesztést analitikai folyamatokkal, algoritmusoptimalizálással és technikai felelősségvállalással ötvözi.
+        technologies:
+          - .NET
+          - C#
+          - TypeScript
+          - WPF
+          - MsSQL
+
       - company: Advanced Engineering Industrie Automation GmbH
         title: SCADA Software Developer (Tech Lead)
         location: Hallein, Salzburg, Ausztria
-        period: 2023. augusztus - jelenleg
+        period: 2023. augusztus - 2026. július
         intro: Line-control és HMI software PCB- és félvezetőgyártáshoz, ahol a szerepem architektúrát, implementációt, integrációs munkát, delivery supportot és technikai irányítást köt össze.
         bullets:
           - Technikai felelős Comandra kapcsán, amely egy konfigurálható SCADA/HMI és line-control platform gyártósori működéshez, customer-specific workflow-khoz és karbantartható runtime deploymentekhez.

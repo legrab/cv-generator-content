@@ -58,11 +58,22 @@ A rendszerszintű gondolkodást gyakorlatias kreativitással kapcsolom össze. A
 
 ## Experience
 
+### Molecular Devices
+
+**Software Engineer**
+
+2026. augusztus - jelenleg | Puch bei Hallein, Salzburg, Austria
+
+Tudományos adatelemző és laboratóriumi szoftverek, ahol a szerepem a fejlesztést analitikai folyamatokkal, algoritmusoptimalizálással és technikai felelősségvállalással ötvözi.
+
+Core technologies:
+.NET | C# | TypeScript | WPF | MsSQL
+
 ### Advanced Engineering Industrie Automation GmbH
 
 **SCADA Software Developer (Tech Lead)**
 
-2023. augusztus - jelenleg | Hallein, Salzburg, Ausztria
+2023. augusztus - 2026. július | Hallein, Salzburg, Ausztria
 
 Line-control és HMI software PCB- és félvezetőgyártáshoz, ahol a szerepem architektúrát, implementációt, integrációs munkát, delivery supportot és technikai irányítást köt össze.
 
